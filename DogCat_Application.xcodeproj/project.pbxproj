@@ -13,6 +13,7 @@
 		FCFCBA53245EED8400634944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFCBA51245EED8400634944 /* Main.storyboard */; };
 		FCFCBA55245EED8500634944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFCBA54245EED8500634944 /* Assets.xcassets */; };
 		FCFCBA58245EED8500634944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFCBA56245EED8500634944 /* LaunchScreen.storyboard */; };
+		FCFCBA60245EED8F00634944 /* CatDog_ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCFCBA5F245EED8F00634944 /* CatDog_ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FCFCBA54245EED8500634944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCFCBA57245EED8500634944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCFCBA59245EED8500634944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFCBA5F245EED8F00634944 /* CatDog_ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatDog_ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FCFCBA54245EED8500634944 /* Assets.xcassets */,
 				FCFCBA56245EED8500634944 /* LaunchScreen.storyboard */,
 				FCFCBA59245EED8500634944 /* Info.plist */,
+				FCFCBA5F245EED8F00634944 /* CatDog_ImageClassifier.mlmodel */,
 			);
 			path = DogCat_Application;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				FCFCBA50245EED8400634944 /* ViewController.swift in Sources */,
 				FCFCBA4C245EED8400634944 /* AppDelegate.swift in Sources */,
 				FCFCBA4E245EED8400634944 /* SceneDelegate.swift in Sources */,
+				FCFCBA60245EED8F00634944 /* CatDog_ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7C26LRS85;
 				INFOPLIST_FILE = DogCat_Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7C26LRS85;
 				INFOPLIST_FILE = DogCat_Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
